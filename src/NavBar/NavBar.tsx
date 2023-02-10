@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className={style.navbarWrapper}>
         <div className={style.left}>
           <div className={style.logo}>
-            <h1>L</h1>
+            <h1>l</h1>
             <Image 
             src="/assets/love.svg"
              alt="/" 
