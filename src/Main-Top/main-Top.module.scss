@@ -1,0 +1,182 @@
+.main{
+  width: 100%;
+  height: 100vh;
+
+  .mainWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .arrow{
+      position: absolute;
+      top: 220px;
+      right: 400px;
+    }
+
+    .circle{
+      width: 102px;
+      height: 102px;
+      position: absolute;
+      bottom: 580px;
+      right: 300px;
+      border-radius: 50%;
+      background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+      box-shadow: inset 1.02px 2.04px 51px #001D6E;
+    }
+
+    .circle2{
+      position: absolute;
+      width:200px;
+      height: 200px;
+      left:50px;
+      bottom: 400px;
+      position: absolute;
+      border-radius: 50%;
+      background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+      box-shadow: inset 1.02px 2.04px 51px #001D6E;
+    }
+
+    .circle3{
+      position: absolute;
+      width:400px;
+      height: 400px;
+      right:-170px;
+      position: absolute;
+      border-radius: 50%;
+      background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+      box-shadow: inset 4px 8px 200px #001D6E;
+      filter: blur(15px);
+    }
+
+    .star1{
+      position: absolute;
+      top: 0px;
+      left:500px;
+    }
+    .star2{
+      position: absolute;
+      top: 80px;
+      right:300px;
+      
+    }
+    .star3{
+      position: absolute;
+      bottom: 0;
+      left: 200px;
+    }
+    .star4{
+      position: absolute;
+      bottom: 0;
+      right:150px;
+    }
+
+
+    .mainHeader{
+      position: relative;
+      font-family: 'Satoshi';
+      font-weight: 900;
+      font-size: 34px;
+      text-align: center;
+      color: #fff;
+      padding: 15px;
+
+
+    }
+
+    .maintext{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      color: #FCFCFC;
+      padding-bottom: 50px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+              
+      .inputForm {
+        width: 443px;
+        height: 50px;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 5px;
+
+        input{
+          width: 400px;
+          height: 50px;
+          border: none;
+          background: transparent;
+          outline: none;
+          padding-left: 5px;
+          color: #fff;
+
+          &::placeholder{
+            color: #fff;
+          }  
+        }
+      }
+
+      button{
+        width: 443px;
+        height: 50px;
+        margin-top: 24px;
+        color: #fff;
+        background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
+        border-radius: 100px;
+        border: none;
+      }
+    }
+    .accountsIcon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25px;
+
+      .account{
+        background-color: #5404FF;
+        border-radius: 50%;
+        font-family: 'Satoshi';
+        font-weight: 700;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+      }
+      .account2{
+        background-color: rgba(189, 59, 210, 0.94);
+        border-radius: 50%;
+        font-family: 'Satoshi';
+        font-weight: 700;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+      }
+
+      span{
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Satoshi';
+        font-weight: 700;
+        font-size: 16px;
+        padding-left: 12px;
+      }
+    }
+  }
+}

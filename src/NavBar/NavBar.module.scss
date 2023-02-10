@@ -1,0 +1,48 @@
+.navbar{
+  width: 100%;
+
+  .navbarWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:64px 100px;
+
+    .left{
+      
+      .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          color: #FFFFFF;
+        }
+      }
+
+    }
+
+    .right{
+
+      .btn{
+      padding: 10px 35px;
+      display: inline-block;
+      border-radius: 40px;
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      position: relative;
+      border: 10px solid linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+      line-height: 22px;
+      color: #FFFFFF;
+      background: none;
+      //Change for the <button> element
+      cursor: pointer;
+      }
+    }
+  }
+}
